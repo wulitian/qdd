@@ -1,7 +1,7 @@
 import { Column, PrimaryGeneratedColumn } from 'typeorm';
-import { Provide } from '@midwayjs/decorator';
+import { EntityModel } from '@midwayjs/orm';
 
-@Provide()
+@EntityModel('UserEntity')
 export class UserEntity {
   @PrimaryGeneratedColumn({
     type: 'int',

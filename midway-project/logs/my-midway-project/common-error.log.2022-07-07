@@ -194,3 +194,25 @@
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
     at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 20:44:49,225 ERROR 17316 [-/::ffff:127.0.0.1/-/16ms POST /api/user/login?username=1&password=1] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\vueWorkspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\vueWorkspace\qdd-server\midway-project\src\service\user.service.ts:17:33)
+    at APIController.login (D:\vueWorkspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\vueWorkspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\vueWorkspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\vueWorkspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 20:48:40,899 ERROR 22640 [-/::ffff:127.0.0.1/-/16ms POST /api/user/login?username=1&password=1] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\vueWorkspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\vueWorkspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\vueWorkspace\qdd-server\midway-project\src\service\user.service.ts:17:33)
+    at APIController.login (D:\vueWorkspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\vueWorkspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\vueWorkspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\vueWorkspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22

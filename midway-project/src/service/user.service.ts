@@ -5,6 +5,7 @@ import { UserEntity } from '../entity/user.entity';
 
 @Provide()
 export class UserService {
+
   @Inject()
   userModel: UserModel;
 
