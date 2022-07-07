@@ -1,0 +1,210 @@
+2022-07-07 17:11:39,787 WARN 17888 [-/::ffff:127.0.0.1/-/29ms POST /api/user/login?username=wulitian&password=wulitian] NotFoundError: /api/user/login Not Found
+    at notFound (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\koa\dist\framework.js:64:23)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17
+    at async bodyParser (D:\workspace\qdd-server\midway-project\node_modules\koa-bodyparser\index.js:95:5)
+    at async session (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\session\dist\middleware\session.js:137:17)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\baseFramework.js:239:36
+    at async midwayRootMiddleware (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\koa\dist\framework.js:70:13) {
+  code: '404',
+  cause: undefined,
+  status: 404
+}
+2022-07-07 17:12:05,004 ERROR 17888 [-/::ffff:127.0.0.1/-/12ms POST /api/api/user/login?username=wulitian&password=wulitian] MidwayDefinitionNotFoundError: userService in class APIController is not valid in current context
+    at MidwayContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\container.js:439:19)
+    at MidwayRequestContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\requestContainer.js:67:32)
+    at RefResolver.resolveAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:232:44)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:25:32
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-07 17:13:10,532 ERROR 2824 [-/::ffff:127.0.0.1/-/25ms POST /api/user/login?username=wulitian&password=wulitian] MidwayDefinitionNotFoundError: userService in class APIController is not valid in current context
+    at MidwayContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\container.js:439:19)
+    at MidwayRequestContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\requestContainer.js:67:32)
+    at RefResolver.resolveAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:232:44)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:25:32
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-07 17:13:36,240 ERROR 2824 [-/::ffff:127.0.0.1/-/29ms POST /api/user/login?username=wulitian&password=wulitian] MidwayDefinitionNotFoundError: userService in class APIController is not valid in current context
+    at MidwayContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\container.js:439:19)
+    at MidwayRequestContainer.getAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\requestContainer.js:67:32)
+    at RefResolver.resolveAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:58:37)
+    at ManagedResolverFactory.resolveManagedAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:92:25)
+    at ManagedResolverFactory.createAsync (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\context\managedResolverFactory.js:232:44)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:25:32
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\i18n\dist\middleware.js:138:17 {
+  code: 'MIDWAY_10003',
+  cause: undefined,
+  [Symbol(#NotFoundError)]: Symbol(#NotFoundError)
+}
+2022-07-07 17:15:29,945 ERROR 14324 [-/::ffff:127.0.0.1/-/60ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:16:03,526 ERROR 14324 [-/::ffff:127.0.0.1/-/3ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:16:04,582 ERROR 14324 [-/::ffff:127.0.0.1/-/2ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:18:19,198 ERROR 14324 [-/::ffff:127.0.0.1/-/1ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:18:20,331 ERROR 14324 [-/::ffff:127.0.0.1/-/3ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:18:25,923 ERROR 14324 [-/::ffff:127.0.0.1/-/1ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:26:51,664 ERROR 26384 [-/::ffff:127.0.0.1/-/47ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:27:36,935 ERROR 26384 [-/::ffff:127.0.0.1/-/3ms POST /api/user/login?username=wulitian&password=wulitian] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:27:49,518 ERROR 26384 [-/::ffff:127.0.0.1/-/2ms POST /api/user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:27:53,018 ERROR 26384 [-/::ffff:127.0.0.1/-/4ms POST /api/user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:28:50,427 ERROR 16968 [-/::ffff:127.0.0.1/-/47ms POST /api/user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+2022-07-07 17:29:19,945 ERROR 16968 [-/::ffff:127.0.0.1/-/6ms POST /api/user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\info\dist\middleware\info.middleware.js:35:24
+2022-07-07 17:35:30,231 ERROR 21164 [-/::ffff:127.0.0.1/-/42ms POST /api/user/login] Error: non-error thrown: [{}]
+    at Object.app.context.onerror (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\koa\dist\onerror.js:125:30)
+    at onerror (D:\workspace\qdd-server\midway-project\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-07-07 17:35:31,775 ERROR 21164 [-/::ffff:127.0.0.1/-/1ms POST /api/user/login] Error: non-error thrown: [{}]
+    at Object.app.context.onerror (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\koa\dist\onerror.js:125:30)
+    at onerror (D:\workspace\qdd-server\midway-project\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-07-07 17:38:55,723 ERROR 17936 [-/::ffff:127.0.0.1/-/47ms POST /api/user/login] EntityMetadataNotFoundError: No metadata for "UserEntity" was found.
+    at DataSource.getMetadata (D:\workspace\qdd-server\midway-project\node_modules\src\data-source\DataSource.ts:423:30)
+    at Repository.get metadata [as metadata] (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:52:40)
+    at Repository.findOne (D:\workspace\qdd-server\midway-project\node_modules\src\repository\Repository.ts:529:42)
+    at UserModel.getUserByUsernameAndPassword (D:\workspace\qdd-server\midway-project\src\model\user.model.ts:20:32)
+    at UserService.getUser (D:\workspace\qdd-server\midway-project\src\service\user.service.ts:16:33)
+    at APIController.login (D:\workspace\qdd-server\midway-project\src\controller\user.controller.ts:15:41)
+    at APIController.Clz.<computed> (D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\service\aspectService.js:89:53)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async D:\workspace\qdd-server\midway-project\node_modules\@midwayjs\core\dist\common\webGenerator.js:27:28
+    at async D:\workspace\qdd-server\midway-project\src\middleware\report.middleware.ts:13:22
