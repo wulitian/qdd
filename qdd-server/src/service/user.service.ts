@@ -1,7 +1,6 @@
 import { Inject, Provide } from '@midwayjs/decorator';
 import { UserOptions } from '../interface';
 import { UserModel } from '../model/user.model';
-import { UserEntity } from '../entity/user.entity';
 
 @Provide()
 export class UserService {
@@ -13,7 +12,9 @@ export class UserService {
    * 根据用户名密码获取用户信息
    * @param options
    */
-  async getUser(options: UserOptions): Promise<UserEntity> {
-    return await this.userModel.getUserByUsernameAndPassword(options);
+  async getUser(options: UserOptions) {
+    let data = await this.userModel.getUserByUsernameAndPassword(options);
+    console.log(data)
+    return !!data;
   }
 }
